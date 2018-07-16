@@ -4,7 +4,6 @@
 
   <groupId>demo</groupId>
   <artifactId>test</artifactId>
-   
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -12,8 +11,6 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -32,29 +29,22 @@
     <version>4.12</version>
     <scope>test</scope>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>2.53.0</version>
+</dependency>
+
+
+<dependency>				
+            <groupId>org.testng</groupId>								
+            <artifactId>testng</artifactId>								
+            <version>6.8</version>								
+            <scope>test</scope>							  			
+       </dependency>
     
   </dependencies>
-         <build>
-    <finalName>tn.talan.selenium</finalName>
-
-    <plugins>
-	    <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>2.2</version>
-</plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-      </plugin>
-
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>tomcat-maven-plugin</artifactId>
-        <version>1.0-beta-1</version>
-      </plugin>
-
-    </plugins>
-
-  </build>
+ 
 </project>
