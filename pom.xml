@@ -4,9 +4,9 @@
 
   <groupId>demo</groupId>
   <artifactId>test</artifactId>
-   <packaging>war</packaging>
+   
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>test</name>
   <url>http://maven.apache.org</url>
